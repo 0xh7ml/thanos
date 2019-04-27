@@ -8,7 +8,7 @@ if platform == "win32":
     print("Iron man founded Thanos on "+path)
     for i in range(1,100000):
         os.mkdir("Thanos" + str(i))
-    print("Killed Thanos Successfully")
+    print("Created Thanos Successfully")
 elif platform == "linux":
     print("This system is Linux")
     cd =os.chdir("/Desktop/")
@@ -16,4 +16,4 @@ elif platform == "linux":
     print("Iron man founded Thanos on "+path)
     for i in range(1,100000):
         os.mkdir("Thanos" + str(i))
-    print("Killed Thanos Successfully")
+    print("Created Thanos Successfully")
